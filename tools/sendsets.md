@@ -67,8 +67,6 @@ bestForMd: "Agents that need to run outbound email end to end (sender mailboxes,
 notBestForMd: "Transactional or notification email, or an agent that needs its own disposable inbox identity rather than outbound campaigns from real sender mailboxes."
 limitationsMd: "Sending runs through mailboxes the user connects or provisions, so volume and deliverability are bounded by those mailboxes and their providers. The free plan is limited to 10 mailboxes and 10,000 emails a month. Some tool families (CRM, forms, automations) are off on the MCP surface unless an instance operator enables them."
 unknownsMd: "No independently measured deliverability benchmark was found in the reviewed first-party documentation."
-reviewedBy: "foo-bender"
-reviewedAt: "2026-09-27"
 ---
 
 Sendsets is a cold email platform built to be operated by an agent. The same service-layer tools are exposed through a remote MCP server, the `sendsets` CLI, and a REST API, and are packaged as agent skills and plugins for Claude Code, Codex, and Gemini CLI. Sends pass through a credential-bound policy, so a person can approve work in the dashboard instead of doing it.
